@@ -1,0 +1,11 @@
+Justin Engelmann, Stefan Lessmann,
+Conditional Wasserstein GAN-based oversampling of tabular data for imbalanced learning,
+Expert Systems with Applications,
+Volume 174,
+2021,
+114582,
+ISSN 0957-4174,
+https://doi.org/10.1016/j.eswa.2021.114582.
+(https://www.sciencedirect.com/science/article/pii/S0957417421000233)
+Abstract: Class imbalance impedes the predictive performance of classification models. Popular countermeasures include oversampling minority class cases by creating synthetic examples. The paper examines the potential of Generative Adversarial Networks (GANs) for oversampling. A few prior studies have used GANs for this purpose but do not reflect recent methodological advancements for generating tabular data using GANs. The paper proposes an approach based on a conditional Wasserstein GAN that can effectively model tabular datasets with numerical and categorical variables and pays special attention to the down-stream classification task through an auxiliary classifier loss. We focus on a credit scoring context in which binary classifiers predict the default risk of loan applications. Empirical comparisons in this context evidence the competitiveness of GAN-based oversampling compared to several standard oversampling regimes. We also clarify the conditions under which oversampling in general and the proposed GAN-based approach in particular raise predictive performance. In sum, our findings suggest that GAN architectures for tabular data and our extensions deserve a place in data scientists’ modelling toolbox.
+Keywords: Imbalanced learning; Generative adversarial networks; Credit scoring; Oversampling
