@@ -8,9 +8,13 @@ Kaggle is used as it's free and allows five kernels running.
 The problem when working with credit scoring datasets is high imbalance rate, which is usually solved with various techniques, most commonly is SMOTE (Synthetic Minority Over-sampling Technique), but is it really effectively handling our problem? This github did many tests with a wide ranges of data balancing techniques, comfirming their effectiveness as well as find the best balancing techniques ever. The kaggle for this github is in https://www.kaggle.com/code/trnmqkhnh/best-combination.
 
 The structure of this github:
+
 --main
+
  | --First step
+ 
  | --Second step
+ 
  | --Second step with cWGAN
 
 Pipeline:
