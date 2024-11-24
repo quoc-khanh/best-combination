@@ -20,4 +20,4 @@ The structure of this github:
 Pipeline:
 First we did tests to selection models used in the next step. Code in First step.
 Second we did test with a lot of balancing techniques, used the score to compare and find the best combination. Code in Second step and Second step with cWGAN.
-Third we have the experimental results in excel in result.csv, result.pdf.
+Third we have the experimental results in excel in result csv.xlsx, Result.pdf.
