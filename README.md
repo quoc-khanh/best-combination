@@ -1,5 +1,5 @@
 # best-combination
-I, personally, did several tests. Using serval credit scoring datasets, balancing techniques, classifying models, this github is intented to find the best combination of balancing technique and model.
+I, personally, did several tests. Using several credit scoring datasets, balancing techniques, classifying models, this github is intented to find the best combination of balancing technique and model.
 
 I used the model cWGAN to represent Neural Network-based technique. I am very appreciate the work and gave credit for the author in S0957417421000233.txt
 
