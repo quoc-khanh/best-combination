@@ -1,23 +1,29 @@
-# best-combination
-Several tests using several credit scoring datasets, balancing techniques, classifying models, in order to find the best combination of balancing technique and model.
+# Best Combination
 
-I used the model cWGAN to represent Neural Network-based technique. I am very appreciate the work and gave credit for the author in S0957417421000233.txt
+This project explores various credit scoring datasets, balancing techniques, and classification models to determine the optimal combination of balancing technique and model.
 
-Kaggle is used as it's free and allows five kernels running. 
+## Overview
 
-The problem when working with credit scoring datasets is high imbalance rate, which is usually solved with various techniques, most commonly is SMOTE (Synthetic Minority Over-sampling Technique), but is it really effectively handling our problem? This github did many tests with a wide ranges of data balancing techniques, comfirming their effectiveness as well as find the best balancing techniques ever. The kaggle for this github is in https://www.kaggle.com/code/trnmqkhnh/best-combination.
+A key challenge in credit scoring datasets is the high class imbalance, typically addressed using techniques like SMOTE (Synthetic Minority Over-sampling Technique). However, is SMOTE truly the most effective method? This repository conducts extensive testing across a wide range of data balancing techniques to evaluate their effectiveness and identify the best approach.
 
-The structure of this github:
+To represent Neural Network-based techniques, we used the cWGAN model. Full credit is given to the original author, referenced in *S0957417421000233.txt*.
 
---main
+Experiments were conducted on [Kaggle](https://www.kaggle.com/code/trnmqkhnh/best-combination), leveraging its free resources and ability to run up to five kernels simultaneously.
 
- | --First step
- 
- | --Second step
- 
- | --Second step with cWGAN
+## Repository Structure
 
-Pipeline:
-First we did tests to selection models used in the next step. Code in First step.
-Second we did test with a lot of balancing techniques, used the score to compare and find the best combination. Code in Second step and Second step with cWGAN.
-Third we have the experimental results in excel in result csv.xlsx, Result.pdf.
+```
+/best-combination │-- First step │-- Second step │-- Second step with cWGAN
+```
+
+## Methodology
+
+1. **Model Selection**: Initial tests were conducted to choose suitable classification models. (See *First step*).
+2. **Balancing Techniques**: Various data balancing techniques were applied and evaluated to determine the most effective approach. (See *Second step* and *Second step with cWGAN*).
+3. **Results & Analysis**: Experimental results are documented in *result_csv.xlsx* and *Result.pdf*.
+
+## Results
+
+The findings provide insights into the effectiveness of different balancing techniques in credit scoring datasets, helping identify the best-performing combination of model and balancing method.
+
+For detailed analysis and results, refer to the Kaggle notebook: [Best Combination](https://www.kaggle.com/code/trnmqkhnh/best-combination).
